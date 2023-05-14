@@ -1,11 +1,6 @@
 CREATE SCHEMA muebles_paz;
 USE muebles_paz;
 
-CREATE TABLE Pais (
-	Pais_id INT NOT NULL AUTO_INCREMENT,
-    Nombre VARCHAR(45) NOT NULL,
-    PRIMARY KEY (Pais_id)
-);
 
 CREATE TABLE Provincia (
 	Provincia_id INT NOT NULL AUTO_INCREMENT,
