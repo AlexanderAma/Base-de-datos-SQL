@@ -1,3 +1,15 @@
+USE muebles_paz;
+
+CREATE TABLE Empleado_venta (
+	id_log INT NOT NULL AUTO_INCREMENT,
+    tabla varchar(45),
+    orden_id INT,
+    usuario VARCHAR (45),
+    fecha datetime,
+    PRIMARY KEY (id_log)
+    
+);
+
 
 CREATE TRIGGER insert_venta
 AFTER INSERT ON orden 
