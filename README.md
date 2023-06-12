@@ -1,19 +1,19 @@
 # Segunda-entrega
 - Se agrega Vistas, Triggers, Stored procedure y Funciones:
 - 
--Vistas: se agregan 5 vistas de consultas:
+-VISTAS: se agregan 5 vistas de consultas:
 1- producto_masvendido : Cuenta los prodctos mas vendidos de la tabla orden 
 2- transportista_ciudad : muestra los datos de transportistas por ciudad a travez de un join de la tabla trasportistas y la tabla aiuxiliar ciudad.
 3- categoria_info : muestra la tabla de categoria por produsto para facilitar la carga de datos o buscar alternativas de producto segun la categoria(mesas, sillas, estantes, etc.)
 4- venta_xcliente: mestra las compras realizadas por cada cliente, para conocer el perfil de cada comprador y hacer macer marketing personalizado.
 5- clientes_datos: muestra los datos comoletos de clientes para facilitar la garga de datos y ventas.
 
--Se generan 3 funciones:
+-FUNCIONES: se generan 3 funciones:
 Una función para ver el stock disponible de cada producto: De la tabla producto - columna Stock se descuenta las ventas realizadas que se encuentran en la tabla Detalle_Orden comparando el Producto_id en ambas tablas. 
 -Segunda función consultar el costo de envió por distancia en Kilómetros, se ingresan los kilómetros y se multiplica por el precio por kilometro.
 -Tercera función: calcula el precio final de venta multiplicando la cantidad por el precio.
 
--Se crean 2 procedimientos almacenados. 
+-STORED PROCEDURE: se crean 2 procedimientos almacenados. 
 1- Se crea un SP para cargar los productos a la tabla Productos con cada unos de los valores.
 2- Se crea un SP para calcular el aumento de precio de cada producto buscando por Id y sumando al precio anterior el porcentaje de aumento que corresponda,  luego se cargue a la tabla Producto
 
