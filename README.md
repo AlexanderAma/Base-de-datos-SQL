@@ -8,6 +8,8 @@
 4- venta_xcliente: mestra las compras realizadas por cada cliente, para conocer el perfil de cada comprador y hacer macer marketing personalizado.
 5- clientes_datos: muestra los datos comoletos de clientes para facilitar la garga de datos y ventas.
 
+- 
+
 
 
 
