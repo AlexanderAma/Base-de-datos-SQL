@@ -13,7 +13,7 @@ Una función para ver el stock disponible de cada producto: De la tabla producto
 -Segunda función consultar el costo de envió por distancia en Kilómetros, se ingresan los kilómetros y se multiplica por el precio por kilometro.
 -Tercera función: calcula el precio final de venta multiplicando la cantidad por el precio.
 
-Se crean 2 procedimientos almacenados. 
+-Se crean 2 procedimientos almacenados. 
 1- Se crea un SP para cargar los productos a la tabla Productos con cada unos de los valores.
 2- Se crea un SP para calcular el aumento de precio de cada producto buscando por Id y sumando al precio anterior el porcentaje de aumento que corresponda,  luego se cargue a la tabla Producto
 
