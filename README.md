@@ -9,6 +9,7 @@
 5- clientes_datos: muestra los datos comoletos de clientes para facilitar la garga de datos y ventas.
 
 - Se generan 3 funciones:
+- 
 1- Una función para ver el stock disponible de cada producto: De la tabla producto - columna Stock se descuenta las ventas realizadas que se encuentran en la tabla Detalle_Orden comparando el Producto_id en ambas tablas. 
 3- Segunda función consultar el costo de envió por distancia en Kilómetros, se ingresan los kilómetros y se multiplica por el precio por kilometro.
 4-  Tercera función: calcula el precio final de venta multiplicando la cantidad por el precio.
