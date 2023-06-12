@@ -15,9 +15,11 @@ Una función para ver el stock disponible de cada producto: De la tabla producto
 
 -STORED PROCEDURE: se crean 2 procedimientos almacenados. 
 1- Se crea un SP para cargar los productos a la tabla Productos con cada unos de los valores.
-2- Se crea un SP para calcular el aumento de precio de cada producto buscando por Id y sumando al precio anterior el porcentaje de aumento que corresponda,  luego se cargue a la tabla Producto
+2- Se crea un SP para calcular el aumento de precio de cada producto buscando por Id y sumando al precio anterior el porcentaje de aumento que corresponda,  luego se cargue a la tabla Producto a travez de UPDATE
 
-
+-TRIGGER: se crea 2 trigger:
+1- un trigger insert_venta: una vez que se cargue una venta en la tabla Orden se carga esa accion a una tabla creada previamente que se llama Empleado_venta donde se guarda el numero de orden emitida, fecha, usuario etc. 
+2- un trigger  inser_producto: cada vez que se elimine un producto de la tabla Producto se carga automaticamente en la Tabla audits creada previamente, con los datos de usuario, fecha, entidad, etc.
 
 
 
