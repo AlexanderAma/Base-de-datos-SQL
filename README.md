@@ -1,12 +1,14 @@
 # Segunda-entrega
 - Se agrega Vistas, Triggers, Stored procedure y Funciones:
 - 
-- Vistas: se agergan 5 vistas de consultas:
+- Vistas: se agregan 5 vistas de consultas:
 1- producto_masvendido : Cuenta los prodctos mas vendidos de la tabla orden 
 2- transportista_ciudad : muestra los datos de transportistas por ciudad a travez de un join de la tabla trasportistas y la tabla aiuxiliar ciudad.
 3- categoria_info : muestra la tabla de categoria por produsto para facilitar la carga de datos o buscar alternativas de producto segun la categoria(mesas, sillas, estantes, etc.)
 4- venta_xcliente: mestra las compras realizadas por cada cliente, para conocer el perfil de cada comprador y hacer macer marketing personalizado.
 5- clientes_datos: muestra los datos comoletos de clientes para facilitar la garga de datos y ventas.
+
+
 
 
 
