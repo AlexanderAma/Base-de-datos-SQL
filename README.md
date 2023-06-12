@@ -20,6 +20,7 @@ Una función para ver el stock disponible de cada producto: De la tabla producto
 -TRIGGER: se crea 2 trigger:
 1- un trigger insert_venta: una vez que se cargue una venta en la tabla Orden se carga esa accion a una tabla creada previamente que se llama Empleado_venta donde se guarda el numero de orden emitida, fecha, usuario etc. 
 2- un trigger  inser_producto: cada vez que se elimine un producto de la tabla Producto se carga automaticamente en la Tabla audits creada previamente, con los datos de usuario, fecha, entidad, etc.
+-Ambas tablas creadas estan en el procedimiento de creacion de trigger.
 
 
 
