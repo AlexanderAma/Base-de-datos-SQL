@@ -35,7 +35,7 @@ insert into categoria (categoria_id, nombre_categoria) values (default, "Ventana
 SAVEPOINT sp2;
 
 #eliminar save point
-#REALISE SAVEPOINT sp1:
+#REALISE SAVEPOINT sp1;
 
 
 
