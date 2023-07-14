@@ -1,4 +1,7 @@
-# Segunda-entrega
+# Entrega final: Se adjunta todos los codigos de los trabajos anteriores
+
+
+Segunda-entrega
 - Se agrega Vistas, Triggers, Stored procedure y Funciones:
 - 
 -VISTAS: se agregan 5 vistas de consultas:
